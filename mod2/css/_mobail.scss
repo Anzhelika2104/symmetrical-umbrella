@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+    .center,
+    .meet__top {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        position: relative;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left, .5s;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.9);
+        z-index: 1000;
+    }
+
+
+    .fa-bars {
+        margin-right: 32px;
+        cursor: pointer;
+
+    }
+
+    .fa-solid {
+        display: var(--fa-display, inline-block) !important;
+    }
+
+    .servis__flex_content{
+        width: auto;
+    }
+
+    .servis__item{
+        flex-basis: 1px;
+    }
+
+    .servis__flex_info{
+        row-gap: 1px;
+    }
+
+    .title, .heading_reverse {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .top__text {
+        width: 100%;
+        max-width: 310px;
+    }
+
+    .top__info,
+    .servis__flex, 
+    .servis__flex_info, 
+    .get  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .products {
+        display: inline;
+        text-align: center; 
+    }
+
+    .text_width_500, 
+    .text__big, 
+    .text_width_500 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .products__link{
+        flex-wrap: wrap;
+    }
+   
+    .meet__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meet_person { 
+        align-items: center;
+    }
+
+    .meet__peoples {
+        flex-wrap: wrap;
+    }
+    
+    .subscribe {
+     padding-bottom: 64px;
+    }
+
+    .subscribe__input,
+    .subscribe__button {
+        width: 90%;
+        margin: auto; 
+    }
+
+    .get__form {
+        width: 100%; 
+        grid-row-gap: 24px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+    
+    .get__text {
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+
+    .get__contacts {
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+
+    .get__contacts-text {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text_smail{
+        width: auto;
+    }
+}
